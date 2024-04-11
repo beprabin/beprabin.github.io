@@ -1,5 +1,5 @@
 * {
-    background-color: #232e30;
+    background-color: #2a2133;
   }
   .container {
     /* position: relative; */
@@ -41,8 +41,8 @@
   }
 
   .text {
-    background-color: #232e30;
-    color: white;
+    background-color: #2a2133;
+    color: #f7f5f2;
     font-size: 16px;
     padding: 16px 300px;
     border-radius: 16px;
