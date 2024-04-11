@@ -2,9 +2,9 @@
     background-color: #2a2133;
   }
   .container {
-    /* position: relative; */
-    display: flex;
-    justify-content: center;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center; */
     width: 30%;
     /* height: 100vh; */
 
