@@ -3,19 +3,42 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <title>beprabin</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
   </head>
   <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="responsiveBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#">
+        <i class="bi bi-brightness-high-fill" id="toggleDark"></i
+      ></a>
+    </div>
+
     <div class="container">
       <div class="image-container">
-        <img
-          src="https://scontent.fktm8-1.fna.fbcdn.net/v/t39.30808-6/434473628_1188556082130640_6375971868602207353_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EW_QGdHp2m8Ab4aMbQV&_nc_ht=scontent.fktm8-1.fna&oh=00_AfDJ-uP-9cvMoZkpmrcdrR-z2rT6IRzxL2Xf-PThCGYpEA&oe=661D5536"
-          alt="Avatar"
-          class="image"
-        />
+        <img src="/img/page.png" alt="Avatar" class="image" />
         <div class="middle">
-          <div class="text">Prabin Buddhacharya</div>
+          <div class="text">
+            <ul>
+              <p>Prabin Buddhacharya</p>
+            </ul>
+            <ul>
+              <p>Software Developer</p>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="js/script.js"></script>
 </html>
